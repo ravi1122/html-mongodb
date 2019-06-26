@@ -1,0 +1,26 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "Node demo showing how to store data into a MongoDB database",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "mongoose",
+    "demo"
+  ],
+  "author": "Jennifer Bland",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.6.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.13.18"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

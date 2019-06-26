@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mr. Ravi Ranjan aka RockStar</h1>
+
+    <div>
+        <h3>Fans</h3>
+        <% if (users) { %>
+            <ul>
+                <% users.map(function(user) { %>
+                    <li><span><%=user.firstName %>&nbsp;<%=user.lastName %></span></li>
+                <% }) %>
+            </ul>
+        <% } %>
+    </div>
+</body>
+</html>
